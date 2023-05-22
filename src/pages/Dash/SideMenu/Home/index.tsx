@@ -1,3 +1,5 @@
+import { Container } from './styled';
+
 export function Home() {
-    return <div>Home</div>;
+    return <Container>Home</Container>;
 }

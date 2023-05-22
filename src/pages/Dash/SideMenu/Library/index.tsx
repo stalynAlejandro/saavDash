@@ -1,3 +1,5 @@
+import { Container } from './styled';
+
 export function Library() {
-    return <div>Library</div>;
+    return <Container>Library</Container>;
 }

@@ -1,11 +1,12 @@
 import { Home } from './Home';
 import { Library } from './Library';
+import { Container } from './styled';
 
 export function SideMenu() {
     return (
-        <div>
+        <Container>
             <Home />
             <Library />
-        </div>
+        </Container>
     );
 }
